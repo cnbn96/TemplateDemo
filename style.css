@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Century+Gothic');
+body,html{
+    font-family: CenturyGothic;
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('images\Homepage-assets\background.jpg');
+}
+.container{
+    width: 980px;
+}
+img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+h1,h2,h3{
+    color:#ff6900;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size:31px;    
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 14px;
+}
+
+/* HEADER */
+.header{
+    height: 105px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+.header .logo{
+    float:left;
+}
+
+.search-list{
+    float:right
+}
+.search-list .item{
+    float:left;
+    padding-left:10px;
+}
+.search-bar .search-list li:first-child{
+    padding-right:10px;
+    border-right:1px solid #b2b2b2
+}
+.search-list .item .input-group input{
+    height: 23px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    box-shadow: inset 0px -2px 0px 0px rgba(255, 255, 255, 0.004);
+}
+.search-icon{
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    background: none;
+    color:#b99e64;
+    height: 23px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.search-icon button{
+    background:none;
+    height: 23px;
+    border-left: solid 1px #ccc;
+}
+.search-icon button i{
+    top:-2px;
+}
+
+/* NAVIGATION */
+
+.navigation{
+    position: relative;
+}
+.menu{
+    margin:0;
+    padding-left:0px;
+    height:41px;
+}
+.menu .item{
+    float:left;
+    width:16.666667%;
+    text-align: center;
+    font-size:15px;
+}
+.menu .item a{
+  font-size: 15px;
+  font-family: "CenturyGothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 41px;
+  text-decoration: none;
+  text-shadow: 0px -2px 0px rgba(255, 138, 0, 0.004);
+}
+.navigation .row{
+    background:#ffb200;
+    border-radius:5px;
+}
+.news___events {
+  font-size: 15px;
+  font-family: "CenturyGothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px -2px 0px rgba(255, 138, 0, 0.004);
+  position: absolute;
+  left: 499.937px;
+  top: 116px;
+  z-index: 24;
+}
+
+
+.Shape_2 {
+  background-image: url("Shape 2.png");
+  position: absolute;
+  left: 149px;
+  top: 105px;
+  width: 980px;
+  height: 41px;
+  z-index: 20;
+}
+
