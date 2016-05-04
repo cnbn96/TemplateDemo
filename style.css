@@ -5,7 +5,7 @@ body,html{
     margin:0;
 }
 body{
-    background-image: url('images\Homepage-assets\background.jpg');
+    background-image: url('../images/Homepage-assets/background.jpg');
 }
 .container{
     width: 980px;
@@ -30,7 +30,9 @@ h2{
 h3{
     font-size: 14px;
 }
-
+.row{
+    margin:0 !important;
+}
 /* HEADER */
 .header{
     height: 105px;
@@ -96,7 +98,6 @@ h3{
 }
 .menu .item a{
   font-size: 15px;
-  font-family: "CenturyGothic";
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
@@ -108,29 +109,68 @@ h3{
     background:#ffb200;
     border-radius:5px;
 }
-.news___events {
-  font-size: 15px;
-  font-family: "CenturyGothic";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: left;
-  text-shadow: 0px -2px 0px rgba(255, 138, 0, 0.004);
-  position: absolute;
-  left: 499.937px;
-  top: 116px;
-  z-index: 24;
+
+/* HERO */
+
+.hero{
+    background: url('../images/Homepage-assets/herofuture.jpg') no-repeat center;
+    background-size: cover;
+    height:307px;
+    display: table;
+    vertical-align: bottom;
+    margin-top:20px;
+    border-radius: 6px;
 }
-
-
-.Shape_2 {
-  background-image: url("Shape 2.png");
-  position: absolute;
-  left: 149px;
-  top: 105px;
-  width: 980px;
-  height: 41px;
-  z-index: 20;
+.hero .row{
+    display: table-cell;
+    vertical-align: bottom;
 }
-
+.hero .row .wrapper{
+    color: #ccc;
+    background:black;  
+    width:100%;  
+    padding: 10px 10px 15px 10px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius:6px;
+    display: table;
+    vertical-align: middle;
+}   
+.hero .row .wrapper .text{
+    width:83.3333%;
+    float:left;
+}
+.hero .row .wrapper .image{
+    float:right;
+    width:16.6667%;
+}
+.hero .row .wrapper .image ul{
+    margin-top:14px;
+    float:right;
+    padding:0;
+}
+.image ul .item{
+    float:left;
+    margin-left:10px;
+}
+.image ul .item button{
+    height:22px;
+    background-color: #6b685e;
+    color:#cbcbcb;
+    border-radius:50%;
+    box-shadow: inset 0.616px -0.788px 0px 0px rgba(192, 186, 166, 0.75);
+}
+.image ul .item .active{
+    background-color: #ff9800;
+    color:white;
+    box-shadow: inset 0.616px -0.788px 0px 0px rgba(192, 186, 166, 0.75);
+}
+.Shape_8 {
+  background-color: rgb(107, 104, 94);
+  box-shadow: inset 0.616px -0.788px 0px 0px rgba(192, 186, 166, 0.75);
+  position: absolute;
+  left: 1001px;
+  top: 436px;
+  width: 117px;
+  height: 22px;
+  z-index: 37;
+}
