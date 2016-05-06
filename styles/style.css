@@ -1,0 +1,8 @@
+.thisouterclass {
+  color: yellow; }
+  .thisouterclass .innerclass {
+    color: blue; }
+    .thisouterclass .innerclass .innerclassmore {
+      color: red; }
+
+/*# sourceMappingURL=style.css.map */

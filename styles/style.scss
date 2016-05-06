@@ -1,0 +1,9 @@
+.thisouterclass{
+    color:yellow;
+    .innerclass{
+        color:blue;
+        .innerclassmore{
+            color:red;
+        }
+    }
+}
